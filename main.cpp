@@ -1,7 +1,7 @@
-﻿/*Program name:
-Author: 
-Date:
-Purpose:
+﻿/*Program name: NFL Football Team Roster Program.cpp
+Author: Judith Nnaji
+Date: 12/05/2025
+Purpose: This program demonstrates object-oriented programming by modeling an NFL football team.
 */
 
 #include <iostream>
@@ -436,4 +436,5 @@ void showPlayerCount(const vector<shared_ptr<Player>>& team) {
     cout << "\n=== TEAM SIZE ===\n";
     cout << "Number of players on team: " << team.size() << "\n";
     cout << "=================\n";
+
 }
